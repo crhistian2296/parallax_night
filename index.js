@@ -13,7 +13,6 @@ let parallaxText = document.querySelector(".parallax-text");
 let parallaxVanish = document.querySelector(".parallax");
 let beforeStyle = window.getComputedStyle(document.querySelector(".parallax", "::before"));
 let marginTopBefore = beforeStyle.getPropertyValue("margin-top");
-console.log(marginTopBefore);
 
 document.addEventListener("DOMContentLoaded", () => {
     let imgStyle = window.getComputedStyle(document.querySelector(".parallax-img"));
